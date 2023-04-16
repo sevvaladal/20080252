@@ -1,0 +1,57 @@
+---
+title: "OECD STANDARDİSED BCI"
+author: 
+  - ŞEVVAL ADAL [^1]
+bibliography: ../bibliography/biblio.bib
+csl: ../csl/apa-tr.csl
+header-includes:
+  - \usepackage{polyglossia}
+  - \setmainlanguage{turkish}
+  - \usepackage{booktabs}
+  - \usepackage{caption} 
+  - \captionsetup[table]{skip=10pt}
+output:
+  bookdown::pdf_document2:
+    fig_caption: yes
+    fig_height: 3
+    fig_width: 4
+    keep_tex: no
+    latex_engine: xelatex
+    number_sections: yes
+    toc: no
+geometry: margin=1in
+link-citations: yes
+urlcolor: blue
+fontsize: 12pt
+biblio-style: apalike
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FALSE)
+```
+
+
+
+[^1]: 20080252, [Github Repo](https://github.com/sevvaladal/20080252.git)
+
+
+#GİRİŞ 
+İş güvenliği endeksi sayesinde ülkelerin çeşitli verileri ele alınarak ülkedeki sanayi sektörlerindeki üretimin, siparişin ve mamul mal stoklarının gelişmesindeki endekslerin kamuoyuna aktarılmasına yardımcı olan bu endeks sayesinde OECD ve çeşitli ülkelerin çeşitli kamu kurumları bu alanda endeks yoluyla hatalarına erişmektedirler. Yapılan çalışmalar sonucunda ülkelerin iş güvenliği endeksi o ülkenin sanayisi hakkında yorum yapmamıza olanak sağlamaktadır. Baz puan 100 üzerinden veya 10 üzerinden ele alınarak yapılan çalışmalarda kimi dönemlerde iş güvenliği endeksi ülkeler bazında eksilere düşerken kimi zaman tam baz puan üzerinden ilerler. Türkiyede bu endeksin ölçülmesi TCMB aracılığıyla sağlanmaktadır. Business Tendency Index isimli endeks aracılığıyla TCMB üzerinden bu verilere ulaşılabilir. -Çalışmanın yapılacağı veriler OECD data kısmından bulunmuştur. -Çalışma üzerinde OECD ülkeleri yer almaktadır. Zaman olarak Aralık 2020 ve Mart 2023 tarihleri arasındaki aylar geçerlidir. -Çalışma sonucunda amaç index üzerinden ülkelerin iş güvenlirliği aylık bazda değişim raporu sunulacaktır. Avrupa kıtası OECD ülkeleri, Amerika kıtası OECD ülkeleri, Asya kıtası OECD ülkeleri ve üç kıta dışında yer alan OECD ülkeleri olarak kıtasal bazda BCI endeksi yorumlanacaktır. OECD dışı ülkelerin bu konuda yorumlaması yapılacaktır ve son olarak çalışma sonucunda toplu rapor bazında analiz sonuçlarına değinilecektir. Sonuç kısmında İş güvenliği endeksini arttırmaya yönelik çalışmalara yer verilecektir.
+
+##LİTERATÜR 
+Çalışma kapsamında dört makale incelenmiştir. İncelenen makaleler kapsamında yer alan önemli bilgilere şu şekilde değinilebilir: Güven endeksi yapılmasındaki amaç yanlış alarm riskini düşürmek ve konjonktürel göstergeye diğer bileşenlerden daha iyi öngörü ve takip özellikleri kazandırmaktır. (Gunes,2019) Avrupa komisyonunda güven indeksi dört ana bileşen çerçevesinde yapılmaktadır. Sanayi güven indeksi(BCI), imar güven indeksi, tüketici güven indeksi ve hisse değer endeksi yoluyla yapılan endekslerde ticari ve tüketici yönelim endekslerinden alınan veriler indeks yoluyla rahat bir şekilde yorumlanarak analizi yapılabilmektedir. ıktisadi karar alıcıların geleceğe yönelik yaptıkları çalışmalar iş ve işveren güvenilirliği ile doğru ölçüde ilerlemektedir. Işçinin güvende olması sonucunda BCI oranlarında artışlar meydana gelirken, işverenin sağlıksız çalışma şartları sunduğu ortamlarda iş güven endekslerinde ciddi düşüşler meydana gelmektedir. Bunun iktisadi boyutunda ise işçinin güvcen duyduğu ortamda çalışması tüketimini arttırırken işçinin güven endeksinin düşmesi durumlarında işçiler tasarruf yapmaya yönelmektedirler. İşçi ve işveren boyutuyla beraber iş güven endeksleri sadece bu etkenlerden oluşmamakla beraber işçiye verilen yan haklar, sosyal haklar gibi durumların yoğun yaşandığı ülkelerde BCI yüksek oranlarda çıkarken sosyal hakların az olduğu, ekonomik sıkıntıların yaşandığı ülkelerde BCI'de ciddi düşüşler meydana gelmektedir. İşçinin güvenliği, işverenin sağlıklı iş ortamı sağlaması, ekonomik dalgalanmaların olmadığı dönemler, sosyal hakların arttırılması, çalışma saatlerinde esneklik, çalışma kapsamında yapılan entegrasyonlar, çalışma yükünün azaltılması gibi durumlar İş güven endeksi(BCI)ni olumlu etkiler, endeks oranını yükseltir. Bunun ülkeler bazında incelenmesi ise çalışmada yapılacaktır.
+
+\newpage
+
+#Kaynakça
+
+::: {#refs}
+:::
+
+@article{Gunesismet:2019, Author = {Gunes, Ismet}, Title = {Ekonomi Güven Endeksi ve Birleşik Göstergeler: Birleşik Krallık Örneği}, url = {<https://dergipark.org.tr/tr/download/article-file/909798>}, Year = {2019}}
+
+@article{KilciEsra:2021, Author = {Kilci, Esra}, Title = {A study on Confidence Indexes in Turkey Under Structal Breaks For The Period Covering The Covid-19 Pandemic}, url = {<https://pdf.trdizin.gov.tr/pdf/OFVIbGNxMWUydjBqS3BBN1JjWGlydUl4d3J5MlRXdUUrdy81NGM3WEozSnZPQk41TmNJbFp1YnE0S3dDM2VwSENFUDNMMFJKRDRSZmgrSHUrcENiL1ZlT05pU3JDam5HZTgxZEFzME1zdkNXdmp4dnRWOHhmS3Q2RW1SVzN0b2l4VjJJQnViNC9RNms3OUQ4R2p1Z2wxcit2eGF2TkNXazNTbWZ2VHR6WitjMXFQMlA2R1g2VG9na0padWRBRUZiMDhqTXhMb1ZRWDA0Q3FZZFN5bzJXd01DenJTZUJyQ0huUDU3aVUrNEFsdEJMdXRLalNiYkFjUXRqR0tWaWR6c24xdVBYaUFpOWpMMm93PT0>}, Year = {2021}}
+
+@article{ArisoyIbrahim:2012, Author = {Arisoy, Ibrahim}, Title = {Türkiye Ekonomisinde İktisadi Güven Endeksleri ve Seçilmiş Makro Değişkenler Arasındaki İlişkilerin VAR Analizi}, url = {<https://kutuphane.dogus.edu.tr/mvt/pdf.php>}, Year = {2012}}
+
+@article{LuongKhoi:2012, Author = {Luong, Khoi Van}, Title = {Business Confidence Index: A Reflection of Business Sentiment in Vietnam}, url = {<https://www.researchgate.net/profile/Khoi-Luong/publication/320274225_Business_Confidence_Index_A_Reflection_of_Business_Sentiment_in_Viet_Nam_Business_Confidence_Index_A_Reflection_of_Business_Sentiment_in_Viet_Nam/links/59da6d330f7e9b12b36d888c/Business-Confidence-Index-A-Reflection-of-Business-Sentiment-in-Viet-Nam-Business-Confidence-Index-A-Reflection-of-Business-Sentiment-in-Viet-Nam.pdf>}, Year = {2012}}
